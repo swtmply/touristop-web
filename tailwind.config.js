@@ -6,10 +6,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: "'Inter', sans-serif",
-        serif: "'Lora', serif",
-        mono: "'Roboto Mono', monospace"
-      }
+        inter: "'Inter', sans-serif",
+        lora: "'Lora', serif",
+        mono: "'Roboto Mono', monospace",
+      },
     },
   },
   plugins: [],

@@ -5,11 +5,14 @@ import Button from "./Button";
 import { MoonIcon } from "@heroicons/react/outline";
 import GithubIcon from "./icons/GithubIcon";
 
-interface NavProps {
+interface NavLinkProps {
   href: string;
 }
 
-const NavLink: React.FC<PropsWithChildren<NavProps>> = ({ children, href }) => {
+export const NavLink: React.FC<PropsWithChildren<NavLinkProps>> = ({
+  children,
+  href,
+}) => {
   return (
     <li className="hover:underline underline-offset-8 decoration-1">
       <Link href={href}>
@@ -21,7 +24,7 @@ const NavLink: React.FC<PropsWithChildren<NavProps>> = ({ children, href }) => {
 
 const Header = () => {
   return (
-    <header className="h-[10vh] max-h-[10vh] border-b-2 border-b-gray-100 mb-2">
+    <header className="h-20 w-10/12 max-w-7xl border-b-2 border-b-gray-100 mb-2">
       <nav className="font-medium flex justify-between items-center px-2 py-4">
         <div className="flex items-center gap-1">
           <Image src="/assets/vectors/logo.svg" width={40} height={40} alt="" />

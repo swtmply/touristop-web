@@ -5,9 +5,11 @@ import Footer from "components/Footer";
 
 const Layout: ReactFCWithChildren = ({ children }) => {
   return (
-    <div className="min-h-screen grid justify-center auto-rows-max">
+    <div className="flex flex-col items-center">
       <Header />
-      <main className="w-[80rem] max-w-[1440px]">{children}</main>
+      <div className="min-h-screen grid justify-center auto-rows-max">
+        <main className="w-[80rem] max-w-[1440px]">{children}</main>
+      </div>
       <Footer />
     </div>
   );
