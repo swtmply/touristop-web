@@ -21,7 +21,7 @@ const FooterLink: React.FC<PropsWithChildren<FooterLinkProps>> = ({
 
 const Footer = () => {
   return (
-    <footer className="bg-neutral-800 w-screen min-h-screen flex justify-center px-10 py-20 text-white overflow-hidden">
+    <footer className="bg-neutral-800 w-screen min-h-screen flex justify-center px-10 py-20 mt-10 text-white overflow-hidden z-50">
       <div className="w-10/12 max-w-7xl flex flex-col gap-16 relative">
         <h2 className="font-lora font-bold text-4xl">
           Connect with me through:

@@ -9,7 +9,7 @@ const Button: React.FC<
   >
 > = ({ children, ...props }) => {
   return (
-    <span className="after:block after:absolute after:inset-0 after:bg-black after:-z-10 relative inline-block duration-300">
+    <span className="after:block after:absolute after:inset-0 max-w-max after:bg-black after:-z-10 relative inline-block duration-300">
       <button
         {...props}
         className="bg-white py-2 px-8 border-2 border-black hover:-translate-x-1 hover:-translate-y-1 duration-300 relative"
