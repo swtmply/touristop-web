@@ -23,7 +23,7 @@ export const NavLink: React.FC<PropsWithChildren<NavLinkProps>> = ({
   href,
 }) => {
   return (
-    <li className="hover:underline underline-offset-8 decoration-1">
+    <li className="hover:underline underline-offset-8 decoration-2">
       <Link href={href}>
         <a>{children}</a>
       </Link>
@@ -33,7 +33,7 @@ export const NavLink: React.FC<PropsWithChildren<NavLinkProps>> = ({
 
 const Header = () => {
   return (
-    <header className="h-20 w-10/12 max-w-7xl border-b-2 border-b-gray-100 mb-4">
+    <header className="fixed top-0 h-20 w-10/12 max-w-7xl border-b-2 border-b-gray-100 mb-40 z-40 bg-white">
       <nav className="font-medium flex justify-between items-center px-2 py-4">
         <div className="flex items-center gap-1">
           <Image src="/assets/vectors/logo.svg" width={40} height={40} alt="" />
