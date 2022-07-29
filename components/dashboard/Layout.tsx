@@ -14,7 +14,7 @@ const DashboardLayout: ReactFCWithChildren = ({ children }) => {
         </div>
         <nav className="flex flex-col flex-1 justify-between gap-2">
           <ul>
-            <li>Tourist Spots</li>
+            <li className="sr-only">Tourist Spots</li>
           </ul>
           <button
             onClick={() => signOut()}

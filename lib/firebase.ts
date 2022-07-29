@@ -9,9 +9,9 @@ const firebaseConfig = {
   apiKey: process.env.NEXT_PUBLIC_FIREBASE_PUBLIC_API_KEY,
   authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
   projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-  // storageBucket: "touristop-dev-c1abf.appspot.com",
-  // messagingSenderId: "997576782837",
-  // appId: "1:997576782837:web:34ca06fcba2af61fbe26bc",
+  storageBucket: "touristop-dev-c1abf.appspot.com",
+  messagingSenderId: "997576782837",
+  appId: "1:997576782837:web:34ca06fcba2af61fbe26bc",
 };
 
 export const app = initializeApp(firebaseConfig);

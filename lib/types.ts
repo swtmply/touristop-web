@@ -4,10 +4,10 @@ export type PropsWithChildrenOnly = PropsWithChildren<unknown>;
 export type ReactFCWithChildren = React.FC<PropsWithChildrenOnly>;
 
 export type Destination = {
-  id: string;
+  id?: string;
   name: string;
   description: string;
-  image: string[];
+  image?: string[];
   type: string;
   address: string;
   guideline: string;

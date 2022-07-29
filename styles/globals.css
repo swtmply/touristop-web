@@ -5,3 +5,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mantine-1azztlu:focus-visible,
+.mantine-1afvv4w:focus-visible {
+  outline: none !important;
+}
